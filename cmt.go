@@ -5,8 +5,8 @@ import (
 	"os"
 
 	"github.com/codegangsta/cli"
-	"github.com/marcosnils/cmt/migrate"
-	"github.com/marcosnils/cmt/validate"
+	"github.com/edbergavera/cmt/migrate"
+	"github.com/edbergavera/cmt/validate"
 )
 
 const (

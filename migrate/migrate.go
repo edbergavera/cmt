@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/codegangsta/cli"
-	"github.com/marcosnils/cmt/cmd"
-	"github.com/marcosnils/cmt/iptables"
-	"github.com/marcosnils/cmt/validate"
+	"github.com/edbergavera/cmt/cmd"
+	"github.com/edbergavera/cmt/iptables"
+	"github.com/edbergavera/cmt/validate"
 )
 
 var Command = cli.Command{
