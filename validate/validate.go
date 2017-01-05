@@ -133,7 +133,7 @@ func checkCPUCompat(srcCmd, dstCmd cmd.Cmd) error {
 }
 
 func checkKernelCap(c cmd.Cmd) error {
-	_, _, err := c.Run("sudo", "criu", "check", "--ms")
+	_, _, err := c.Run("sudo", "criu", "check")
 	if _, ok := err.(*ssh.ExitError); ok {
 		return fmt.Errorf("Error criu checks do not pass")
 	} else if _, ok := err.(*exec.ExitError); ok {
